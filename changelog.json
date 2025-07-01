@@ -1,0 +1,466 @@
+[
+  {
+    "endpoint": "/downloader/tiktok2",
+    "timestamp": "Jul 16, 2024, 10:03:00 AM GMT+7"
+  },
+  {
+    "endpoint": "/search/discover",
+    "timestamp": "Jul 07, 2024, 03:55:56 AM GMT+7"
+  },
+  {
+    "endpoint": "/information/listgempa",
+    "timestamp": "Jul 07, 2024, 02:45:49 AM GMT+7"
+  },
+  {
+    "endpoint": "/information/gempaterbaru",
+    "timestamp": "Jul 07, 2024, 02:45:49 AM GMT+7"
+  },
+  {
+    "endpoint": "/downloader/youtubemp4",
+    "timestamp": "Jul 07, 2024, 02:45:49 AM GMT+7"
+  },
+  {
+    "endpoint": "/anime/webtoon",
+    "timestamp": "Jul 07, 2024, 02:45:49 AM GMT+7"
+  },
+  {
+    "endpoint": "/anime/mangatoonpopuler",
+    "timestamp": "Jul 07, 2024, 02:45:49 AM GMT+7"
+  },
+  {
+    "endpoint": "/anime/mangatoon",
+    "timestamp": "Jul 07, 2024, 02:45:49 AM GMT+7"
+  },
+  {
+    "endpoint": "/anime/Komikcast2",
+    "timestamp": "Jul 07, 2024, 02:45:49 AM GMT+7"
+  },
+  {
+    "endpoint": "/anime/Komikcast",
+    "timestamp": "Jul 07, 2024, 02:45:49 AM GMT+7"
+  },
+  {
+    "endpoint": "/anime/otakudesudetail",
+    "timestamp": "Jul 07, 2024, 02:45:49 AM GMT+7"
+  },
+  {
+    "endpoint": "/anime/otakudesusearch",
+    "timestamp": "Jul 07, 2024, 02:45:49 AM GMT+7"
+  },
+  {
+    "endpoint": "/ai/gemini",
+    "timestamp": "Jul 07, 2024, 02:45:49 AM GMT+7"
+  },
+  {
+    "endpoint": "/downloader/facebook",
+    "timestamp": "Jul 07, 2024, 02:45:49 AM GMT+7"
+  },
+  {
+    "endpoint": "/downloader/twitter",
+    "timestamp": "Jul 07, 2024, 02:45:49 AM GMT+7"
+  },
+  {
+    "endpoint": "/downloader/tiktok",
+    "timestamp": "Jul 07, 2024, 02:45:49 AM GMT+7"
+  },
+  {
+    "endpoint": "/downloader/video",
+    "timestamp": "Jul 07, 2024, 02:45:49 AM GMT+7"
+  },
+  {
+    "endpoint": "/downloader/mediafire",
+    "timestamp": "Jul 07, 2024, 02:45:49 AM GMT+7"
+  },
+  {
+    "endpoint": "/downloader/gdrive",
+    "timestamp": "Jul 07, 2024, 02:45:49 AM GMT+7"
+  },
+  {
+    "endpoint": "/downloader/instagram",
+    "timestamp": "Jul 07, 2024, 02:45:49 AM GMT+7"
+  },
+  {
+    "endpoint": "/islami/hadist",
+    "timestamp": "Jul 07, 2024, 02:45:49 AM GMT+7"
+  },
+  {
+    "endpoint": "/islami/doarandom",
+    "timestamp": "Jul 07, 2024, 02:45:49 AM GMT+7"
+  },
+  {
+    "endpoint": "/islami/jadwalsholat",
+    "timestamp": "Jul 07, 2024, 02:45:49 AM GMT+7"
+  },
+  {
+    "endpoint": "/islami/alquran",
+    "timestamp": "Jul 07, 2024, 02:45:49 AM GMT+7"
+  },
+  {
+    "endpoint": "/islami/doa",
+    "timestamp": "Jul 07, 2024, 02:45:49 AM GMT+7"
+  },
+  {
+    "endpoint": "/database/cekewallet",
+    "timestamp": "Jul 07, 2024, 02:45:49 AM GMT+7"
+  },
+  {
+    "endpoint": "/database/cekbank",
+    "timestamp": "Jul 07, 2024, 02:45:49 AM GMT+7"
+  },
+  {
+    "endpoint": "/database/listewallet",
+    "timestamp": "Jul 07, 2024, 02:45:49 AM GMT+7"
+  },
+  {
+    "endpoint": "/database/listbank",
+    "timestamp": "Jul 07, 2024, 02:45:49 AM GMT+7"
+  },
+  {
+    "endpoint": "/news/republika",
+    "timestamp": "Jul 07, 2024, 02:45:49 AM GMT+7"
+  },
+  {
+    "endpoint": "/news/cnbc",
+    "timestamp": "Jul 07, 2024, 02:45:49 AM GMT+7"
+  },
+  {
+    "endpoint": "/news/cnnindonesia",
+    "timestamp": "Jul 07, 2024, 02:45:49 AM GMT+7"
+  },
+  {
+    "endpoint": "/news/jakpostnews",
+    "timestamp": "Jul 07, 2024, 02:45:49 AM GMT+7"
+  },
+  {
+    "endpoint": "/news/kompastv",
+    "timestamp": "Jul 07, 2024, 02:45:49 AM GMT+7"
+  },
+  {
+    "endpoint": "/search/spotifysearch2",
+    "timestamp": "Jul 07, 2024, 02:45:49 AM GMT+7"
+  },
+  {
+    "endpoint": "/search/spotifysearch",
+    "timestamp": "Jul 07, 2024, 02:45:49 AM GMT+7"
+  },
+  {
+    "endpoint": "/search/wikimedia",
+    "timestamp": "Jul 07, 2024, 02:45:49 AM GMT+7"
+  },
+  {
+    "endpoint": "/search/wallpaper",
+    "timestamp": "Jul 07, 2024, 02:45:49 AM GMT+7"
+  },
+  {
+    "endpoint": "/search/kodepos",
+    "timestamp": "Jul 07, 2024, 02:45:49 AM GMT+7"
+  },
+  {
+    "endpoint": "/search/google",
+    "timestamp": "Jul 07, 2024, 02:45:49 AM GMT+7"
+  },
+  {
+    "endpoint": "/search/sticker",
+    "timestamp": "Jul 07, 2024, 02:45:49 AM GMT+7"
+  },
+  {
+    "endpoint": "/search/lirik",
+    "timestamp": "Jul 07, 2024, 02:45:49 AM GMT+7"
+  },
+  {
+    "endpoint": "/search/tiktokseacrh",
+    "timestamp": "Jul 07, 2024, 02:45:49 AM GMT+7"
+  },
+  {
+    "endpoint": "/search/pintereset",
+    "timestamp": "Jul 07, 2024, 02:45:49 AM GMT+7"
+  },
+  {
+    "endpoint": "/search/pddikti2",
+    "timestamp": "Jul 07, 2024, 02:45:49 AM GMT+7"
+  },
+  {
+    "endpoint": "/information/pddikti",
+    "timestamp": "Jul 07, 2024, 02:45:49 AM GMT+7"
+  },
+  {
+    "endpoint": "/search/playstore",
+    "timestamp": "Jul 07, 2024, 02:45:49 AM GMT+7"
+  },
+  {
+    "endpoint": "/search/youtube",
+    "timestamp": "Jul 07, 2024, 02:45:49 AM GMT+7"
+  },
+  {
+    "endpoint": "/ai/marioai",
+    "timestamp": "Jul 07, 2024, 02:45:49 AM GMT+7"
+  },
+  {
+    "endpoint": "/ai/ragbotai",
+    "timestamp": "Jul 07, 2024, 02:45:49 AM GMT+7"
+  },
+  {
+    "endpoint": "/ai/texttospeech",
+    "timestamp": "Jul 07, 2024, 02:45:49 AM GMT+7"
+  },
+  {
+    "endpoint": "/ai/photoleap",
+    "timestamp": "Jul 07, 2024, 02:45:49 AM GMT+7"
+  },
+  {
+    "endpoint": "/ai/diffusion",
+    "timestamp": "Jul 07, 2024, 02:45:49 AM GMT+7"
+  },
+  {
+    "endpoint": "/ai/simi",
+    "timestamp": "Jul 07, 2024, 02:45:49 AM GMT+7"
+  },
+  {
+    "endpoint": "/ai/gemini",
+    "timestamp": "Jul 07, 2024, 02:45:49 AM GMT+7"
+  },
+  {
+    "endpoint": "/ai/blackbockai",
+    "timestamp": "Jul 07, 2024, 02:45:49 AM GMT+7"
+  },
+  {
+    "endpoint": "/ai/sansai",
+    "timestamp": "Jul 07, 2024, 02:45:49 AM GMT+7"
+  },
+  {
+    "endpoint": "/voicevox",
+    "timestamp": "Dec 31, 2023, 05:02:42 AM GMT+7"
+  },
+  {
+    "endpoint": "/seaart2",
+    "timestamp": "Dec 31, 2023, 04:42:39 AM GMT+7"
+  },
+  {
+    "endpoint": "/seaart",
+    "timestamp": "Dec 31, 2023, 04:30:39 AM GMT+7"
+  },
+  {
+    "endpoint": "/simisimi2",
+    "timestamp": "Dec 30, 2023, 05:56:25 PM GMT+7"
+  },
+  {
+    "endpoint": "/spotifysearch",
+    "timestamp": "Dec 30, 2023, 05:55:09 PM GMT+7"
+  },
+  {
+    "endpoint": "/steamdetail",
+    "timestamp": "Dec 30, 2023, 05:55:09 PM GMT+7"
+  },
+  {
+    "endpoint": "/steam",
+    "timestamp": "Dec 30, 2023, 05:55:09 PM GMT+7"
+  },
+  {
+    "endpoint": "/lirik",
+    "timestamp": "Dec 30, 2023, 05:55:09 PM GMT+7"
+  },
+  {
+    "endpoint": "/kodepos",
+    "timestamp": "Dec 30, 2023, 05:55:09 PM GMT+7"
+  },
+  {
+    "endpoint": "/jadwalbola",
+    "timestamp": "Dec 30, 2023, 05:55:09 PM GMT+7"
+  },
+  {
+    "endpoint": "/bukalapak",
+    "timestamp": "Dec 30, 2023, 05:55:09 PM GMT+7"
+  },
+  {
+    "endpoint": "/playstore",
+    "timestamp": "Dec 30, 2023, 05:55:09 PM GMT+7"
+  },
+  {
+    "endpoint": "/wikimedia",
+    "timestamp": "Dec 30, 2023, 05:55:09 PM GMT+7"
+  },
+  {
+    "endpoint": "/pinterest",
+    "timestamp": "Dec 30, 2023, 05:55:09 PM GMT+7"
+  },
+  {
+    "endpoint": "/wallpaper",
+    "timestamp": "Dec 30, 2023, 05:55:09 PM GMT+7"
+  },
+  {
+    "endpoint": "/youtubesearch",
+    "timestamp": "Dec 30, 2023, 05:55:09 PM GMT+7"
+  },
+  {
+    "endpoint": "/carbon",
+    "timestamp": "Dec 30, 2023, 05:55:09 PM GMT+7"
+  },
+  {
+    "endpoint": "/ssweb",
+    "timestamp": "Dec 30, 2023, 05:55:09 PM GMT+7"
+  },
+  {
+    "endpoint": "/mediafire",
+    "timestamp": "Dec 30, 2023, 05:55:09 PM GMT+7"
+  },
+  {
+    "endpoint": "/twitter",
+    "timestamp": "Dec 30, 2023, 05:55:09 PM GMT+7"
+  },
+  {
+    "endpoint": "/spotify",
+    "timestamp": "Dec 30, 2023, 05:55:09 PM GMT+7"
+  },
+  {
+    "endpoint": "/instagram",
+    "timestamp": "Dec 30, 2023, 05:55:09 PM GMT+7"
+  },
+  {
+    "endpoint": "/facebook",
+    "timestamp": "Dec 30, 2023, 05:55:09 PM GMT+7"
+  },
+  {
+    "endpoint": "/tiktok",
+    "timestamp": "Dec 30, 2023, 05:55:09 PM GMT+7"
+  },
+  {
+    "endpoint": "/youtubevideo",
+    "timestamp": "Dec 30, 2023, 05:55:09 PM GMT+7"
+  },
+  {
+    "endpoint": "/youtubeaudio",
+    "timestamp": "Dec 30, 2023, 05:55:09 PM GMT+7"
+  },
+  {
+    "endpoint": "/shinigamilastupdate",
+    "timestamp": "Dec 30, 2023, 05:55:09 PM GMT+7"
+  },
+  {
+    "endpoint": "/shinigamiimage",
+    "timestamp": "Dec 30, 2023, 05:55:09 PM GMT+7"
+  },
+  {
+    "endpoint": "/shinigamidetail",
+    "timestamp": "Dec 30, 2023, 05:55:09 PM GMT+7"
+  },
+  {
+    "endpoint": "/shinigamisearch",
+    "timestamp": "Dec 30, 2023, 05:55:09 PM GMT+7"
+  },
+  {
+    "endpoint": "/asuralastupdate",
+    "timestamp": "Dec 30, 2023, 05:55:09 PM GMT+7"
+  },
+  {
+    "endpoint": "/asuraimage",
+    "timestamp": "Dec 30, 2023, 05:55:09 PM GMT+7"
+  },
+  {
+    "endpoint": "/asuradetail",
+    "timestamp": "Dec 30, 2023, 05:55:09 PM GMT+7"
+  },
+  {
+    "endpoint": "/asurasearch",
+    "timestamp": "Dec 30, 2023, 05:55:09 PM GMT+7"
+  },
+  {
+    "endpoint": "/flameimage",
+    "timestamp": "Dec 30, 2023, 05:55:09 PM GMT+7"
+  },
+  {
+    "endpoint": "/flamedetails",
+    "timestamp": "Dec 30, 2023, 05:55:09 PM GMT+7"
+  },
+  {
+    "endpoint": "/flamesearch",
+    "timestamp": "Dec 30, 2023, 05:55:09 PM GMT+7"
+  },
+  {
+    "endpoint": "/batotorandom",
+    "timestamp": "Dec 30, 2023, 05:55:09 PM GMT+7"
+  },
+  {
+    "endpoint": "/batotodetail",
+    "timestamp": "Dec 30, 2023, 05:55:09 PM GMT+7"
+  },
+  {
+    "endpoint": "/batotocomic",
+    "timestamp": "Dec 30, 2023, 05:55:09 PM GMT+7"
+  },
+  {
+    "endpoint": "/batotosearch",
+    "timestamp": "Dec 30, 2023, 05:55:09 PM GMT+7"
+  },
+  {
+    "endpoint": "/komikulastupdate",
+    "timestamp": "Dec 30, 2023, 05:55:09 PM GMT+7"
+  },
+  {
+    "endpoint": "/komikudetail",
+    "timestamp": "Dec 30, 2023, 05:55:09 PM GMT+7"
+  },
+  {
+    "endpoint": "/komikusearch",
+    "timestamp": "Dec 30, 2023, 05:55:09 PM GMT+7"
+  },
+  {
+    "endpoint": "/myanimelistmanga",
+    "timestamp": "Dec 30, 2023, 05:55:09 PM GMT+7"
+  },
+  {
+    "endpoint": "/mangatoons",
+    "timestamp": "Dec 30, 2023, 05:55:09 PM GMT+7"
+  },
+  {
+    "endpoint": "/otakudesulatest",
+    "timestamp": "Dec 30, 2023, 05:55:09 PM GMT+7"
+  },
+  {
+    "endpoint": "/otakudesudetail",
+    "timestamp": "Dec 30, 2023, 05:55:09 PM GMT+7"
+  },
+  {
+    "endpoint": "/otakudesusearch",
+    "timestamp": "Dec 30, 2023, 05:55:09 PM GMT+7"
+  },
+  {
+    "endpoint": "/kusonimelastupdate",
+    "timestamp": "Dec 30, 2023, 05:55:09 PM GMT+7"
+  },
+  {
+    "endpoint": "/myanimelistanime",
+    "timestamp": "Dec 30, 2023, 05:55:09 PM GMT+7"
+  },
+  {
+    "endpoint": "/toanime",
+    "timestamp": "Dec 30, 2023, 05:55:09 PM GMT+7"
+  },
+  {
+    "endpoint": "/characterai",
+    "timestamp": "Dec 30, 2023, 05:55:09 PM GMT+7"
+  },
+  {
+    "endpoint": "/bardimage",
+    "timestamp": "Dec 30, 2023, 05:55:09 PM GMT+7"
+  },
+  {
+    "endpoint": "/bardchat",
+    "timestamp": "Dec 30, 2023, 05:55:09 PM GMT+7"
+  },
+  {
+    "endpoint": "/bingimage",
+    "timestamp": "Dec 30, 2023, 05:55:09 PM GMT+7"
+  },
+  {
+    "endpoint": "/bingchat",
+    "timestamp": "Dec 30, 2023, 05:55:09 PM GMT+7"
+  },
+  {
+    "endpoint": "/chatgpt",
+    "timestamp": "Dec 30, 2023, 05:55:09 PM GMT+7"
+  },
+  {
+    "endpoint": "/simi",
+    "timestamp": "Dec 30, 2023, 05:55:09 PM GMT+7"
+  }
+]

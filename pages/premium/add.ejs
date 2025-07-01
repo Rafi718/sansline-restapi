@@ -1,0 +1,103 @@
+<style>
+    /* CSS untuk section Pricing */
+    #pricing {
+        background-color: #f8f8f8;
+        padding: 50px 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    /* CSS untuk form */
+    .pricing-content {
+        background-color: #fff;
+        border-radius: 10px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+        padding: 20px;
+        margin-bottom: 20px;
+        width: 100%;
+        max-width: 600px;
+    }
+
+    .form-control {
+        font-family: Arial, FontAwesome;
+        width: 80%;
+        padding: 10px;
+        margin-bottom: 15px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+
+    /* CSS untuk tombol */
+    .btn {
+        font-family: Arial, FontAwesome;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+
+    .btn-primary {
+        background-color: #007BFF;
+        border-color: #007BFF;
+        color: #fff;
+        padding: 10px 20px;
+        border-radius: 4px;
+        text-decoration: none;
+    }
+
+    .btn-primary:hover {
+        background-color: #0056b3;
+        border-color: #0056b3;
+        color: #fff;
+    }
+
+    /* CSS untuk paragraf tambahan */
+    p {
+        font-size: 14px;
+        color: #777;
+        margin-top: 5px;
+    }
+
+    /* Media query untuk tampilan responsif */
+    @media (max-width: 768px) {
+        .pricing-content {
+            width: 90%;
+        }
+    }
+</style>
+</head>
+<body>
+<section id="pricing">
+        <div class="col-md-6 col-md-offset-3 text-center">
+            <%- include('../layouts/prem') %>
+            <%- include('../layouts/prem1') %>
+        </div>
+    </div>
+    <div class="row pricing-content">
+        <div class="col-md-6 col-md-offset-3 text-center">
+            <h2>ADD PREMIUM FORM</h2>
+            <form method="POST" action="/premium/add">
+                <div class="form-group">
+                    <input name="username" type="text" class="form-control" placeholder="Username" required>
+                </div>
+                <div class="form-group">
+                    <input name="premiumTime" type="text" class="form-control" placeholder="premiumTime" required>
+                </div>
+                <div class="form-group">
+                    <input name="customKey" type="text" class="form-control" placeholder="Custom Key" required>
+                </div>
+                <div class="form-group">
+                    <input name="token" type="text" class="form-control" id="token" placeholder="Token" required>
+                </div>
+                <p>Token, to make sure you are the owner</p>
+                <button type="submit" class="btn btn-primary">Add Premium</button>
+            </form>            
+            <div>
+                <p> </p>
+                <p>Back to Admin Dashboard</p>
+                <a class="btn btn-primary" href="/premium">Back</a>
+            </div>
+        </div>
+    </div>
+</section>
+</body>

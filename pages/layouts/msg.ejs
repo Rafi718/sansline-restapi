@@ -1,0 +1,62 @@
+<% if (typeof success_msg !== 'undefined' && success_msg !== '') { %>
+	<script>
+		const Toast = Swal.mixin({
+			toast: true,
+			position: 'top',
+			showConfirmButton: false,
+			timer: 3000,
+			timerProgressBar: true,
+			didOpen: (toast) => {
+				toast.addEventListener('mouseenter', Swal.stopTimer);
+				toast.addEventListener('mouseleave', Swal.resumeTimer);
+			}
+		});
+		Toast.fire({
+			icon: 'success',
+			title: '<%- success_msg %>',
+			footer: "SanslineApiAPIs"
+		});
+	</script>
+<% } %>
+
+<% if (typeof warning_msg !== 'undefined' && warning_msg !== '') { %>
+	<script>
+		const Toast = Swal.mixin({
+			toast: true,
+			position: 'top',
+			showConfirmButton: false,
+			timer: 3000,
+			timerProgressBar: true,
+			didOpen: (toast) => {
+				toast.addEventListener('mouseenter', Swal.stopTimer);
+				toast.addEventListener('mouseleave', Swal.resumeTimer);
+			}
+		});
+		Toast.fire({
+			icon: 'warning',
+			title: '<%- warning_msg %>',
+			footer: "SanslineApiAPIs"
+		});
+	</script>
+<% } %>
+
+<% if (typeof error_msg !== 'undefined' && error_msg !== '') { %>
+	<script>
+		const Toast = Swal.mixin({
+			toast: true,
+			position: 'top',
+			showConfirmButton: false,
+			timer: 3000,
+			timerProgressBar: true,
+			didOpen: (toast) => {
+				toast.addEventListener('mouseenter', Swal.stopTimer);
+				toast.addEventListener('mouseleave', Swal.resumeTimer);
+			}
+		});
+		Toast.fire({
+			icon: 'error',
+			title: '<%- error_msg %>',
+			footer: "SanslineApiAPIs"
+		});
+	</script>
+<% } %>

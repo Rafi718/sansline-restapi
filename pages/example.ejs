@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Example Code | SanslineApi</title>
+  <meta name="description"
+    content="SanslineApi adalah Penyedia Rest Api gratis yang di khususkan untuk bot whatsapp dan platfrom yang serupa. kami menyediakan banyak fitur-fitur menarik  di rest api kami.">
+  <meta name="author" content="SanslineApi">
+  <meta name="keywords"
+    content="Penyedia Rest Api Gratis, Rest api gratis, api gratis, api bot whatsapp, Rest Api Rest Api, Restful Api, SanslineApi, Penyedia Restful Api Gratis, Rest Api Bot WhatsApp, Rest Api Bot Discord, FAQ Rest Api, Cara mengunakan Rest api, Apa itu rest api, Fitur SanslineApi">
+  <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#9D00EC">
+  <meta name="copyright" content="Aubert Dev.">
+  <!-- Metatag Open Graph (OG) untuk media sosial -->
+  <meta property="og:site_name" content="SanslineApi" />
+  <meta property="og:title" content="Penyedia Rest Api Gratis | SanslineApi">
+  <meta property="og:description"
+    content="SanslineApi adalah Penyedia Rest Api gratis yang di khususkan untuk bot whatsapp dan platfrom yang serupa. kami menyediakan banyak fitur-fitur menarik  di rest api kami.">
+  <meta property="og:image" content="https://telegra.ph/file/6487a3ece3602715b3aaa.png">
+  <!-- URL gambar thumbnail situs Anda -->
+  <meta property="og:url" content="https://sanslinedev.tech">
+  <meta property="og:type" content="website">
+
+  <!-- Metatag Twitter Card untuk Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@SanslineApi">
+  <meta name="twitter:title" content="Penyedia Rest Api Gratis | SanslineApi">
+  <meta name="twitter:description"
+    content="SanslineApi adalah Penyedia Rest Api gratis yang di khususkan untuk bot whatsapp dan platfrom yang serupa. kami menyediakan banyak fitur-fitur menarik  di rest api kami.">
+  <meta name="twitter:image" content="https://telegra.ph/file/6487a3ece3602715b3aaa.png">
+  <!-- URL gambar thumbnail situs Anda -->
+
+  <!-- Favicons -->
+  <link href="assets/img1/favicon.png" rel="icon">
+  <link href="assets/img1/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Inter:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor1/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor1/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor1/fontawesome-free/css/all.min.css" rel="stylesheet">
+  <link href="assets/vendor1/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor1/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/vendor1/aos/aos.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css1/main.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: Logis
+  * Updated: Sep 18 2023 with Bootstrap v5.3.2
+  * Template URL: https://bootstrapmade.com/logis-bootstrap-logistics-website-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+  <style>
+    /* Gaya untuk container utama */
+    .container {
+        display: flex;
+        flex-wrap: wrap; /* Wrap kotak jika tidak cukup ruang */
+        justify-content: space-between; /* Membuat jarak antara kotak */
+    }
+
+    /* Gaya untuk kotak kode */
+    .code-box {
+        background-color: #ffffff; /* Latar belakang putih */
+        border: 1px solid #ddd; /* Garis tepi */
+        padding: 20px; /* Ruang dalam kotak */
+        width: calc(33.33% - 20px); /* Ukuran lebar tetap, diatur menjadi 33.33% agar ada jarak antara kotak */
+        height: 400px; /* Ukuran tinggi tetap */
+        margin-bottom: 20px; /* Jarak bawah antara kotak */
+    }
+
+    /* Gaya untuk kode di dalam kotak */
+    .code-box textarea {
+        width: 100%; /* Lebar teks area mengisi seluruh kotak */
+        height: 100%; /* Tinggi teks area mengisi seluruh kotak */
+        border: none; /* Tidak ada garis tepi teks area */
+        background: none; /* Latar belakang teks area transparan */
+        font-family: Arial, sans-serif; /* Jenis huruf */
+        font-size: 14px; /* Ukuran huruf */
+        resize: none; /* Mencegah pengguna mengubah ukuran teks area */
+    }
+
+    @media (max-width: 768px) {
+        /* Ketika layar lebih kecil dari 768px, atur menjadi tumpuk satu di bawah yang lain */
+        .container {
+            flex-direction: column;
+        }
+
+        /* Atur lebar kotak menjadi 100% untuk tampilan satu di bawah yang lain */
+        .code-box {
+            width: 100%;
+            margin-bottom: 10px;
+        }
+    }
+</style>
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
+
+      <a href="/" class="logo d-flex align-items-center">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <img src="assets/img1/logo4.png" alt="logo">
+        <h1>SanslineApi</h1>
+      </a>
+
+      <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
+      <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a href="/" class="active">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#service">Features</a></li>
+          <li><a href="#pricing">Pricing</a></li>
+          <li><a href="/example-code">Example</a></li>
+          <li><a class="get-a-quote" href="/login">Login</a></li>
+        </ul>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+  <!-- End Header -->
+
+  <main id="main">
+
+    <!-- ======= Breadcrumbs ======= -->
+    <div class="breadcrumbs">
+      <div class="page-header d-flex align-items-center" style="background-image: url('assets/img1/page-header.jpg');">
+        <div class="container position-relative">
+          <div class="row d-flex justify-content-center">
+            <div class="col-lg-6 text-center">
+              <h2>Example Code</h2>
+              <p>Berikut adalah exaple code yang dapat anda gunakan sesuai kebutuhan anda, Terdapat 3 example yang dapat anda gunakan yaitu untuk respone TEXT, IMAGE, AUDIO, pastikan anda memasukan apikey dengan benar agar mendapatkan hasilnya.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <nav>
+        <div class="container">
+          <ol>
+            <li><a href="/">Home</a></li>
+            <li>Example Code</li>
+          </ol>
+        </div>
+      </nav>
+    </div><!-- End Breadcrumbs -->
+
+    <section class="sample-page">
+      <div class="container" data-aos="fade-up">
+          <!-- Kotak Pertama -->
+          <div class="code-box">
+              <textarea id="rest-api-code1" readonly>
+// Respone Dalam bentuk Text
+
+import fetch from 'node-fetch';
+
+// Definisikan URL endpoint API Anda
+const apiUrl = 'https://sanslinedev.tech/api/ai/simi';
+
+// Gantikan dengan kata dan API key yang sesuai
+const text = 'Pertanyaanmu';
+const apiKey = 'Your Api key';
+
+// Membuat URL dengan parameter kata dan apikey
+const urlWithParams = `${apiUrl}?kata=${encodeURIComponent(text)}&apikey=${encodeURIComponent(apiKey)}`;
+
+// Melakukan request GET ke API
+fetch(urlWithParams)
+  .then((response) => response.json())
+  .then((data) => {
+    // Menangani respons dari API
+    if (data.status === 'Success') {
+      console.log('Respon dari API:', data.message);
+    } else {
+      console.error('Gagal mendapatkan respons dari API.');
+    }
+  })
+  .catch((error) => {
+    // Menangani kesalahan jika terjadi
+    console.error('Terjadi kesalahan:', error);
+  });
+              </textarea>
+          </div>
+
+          <!-- Kotak Kedua -->
+          <div class="code-box">
+              <textarea id="rest-api-code2" readonly>
+// Respone dalam bentuk Image
+
+import fetch from 'node-fetch';
+import { writeFile } from 'fs/promises';
+
+// Definisikan URL endpoint API Anda
+const apiUrl = 'https://sanslinedev.tech/api/ai/stablediffusion?';
+
+// Gantikan dengan kata dan API key yang sesuai
+const text = 'text yang ingin di ubah ke IMAGE';
+const apiKey = 'Your Api key';
+
+// Membuat URL dengan parameter kata dan apikey
+const urlWithParams = `${apiUrl}?q=${encodeURIComponent(text)}&apikey=${encodeURIComponent(apiKey)}`;
+
+// Melakukan request GET ke API
+fetch(urlWithParams)
+  .then((response) => {
+    if (!response.ok) {
+      throw new Error('Terjadi kesalahan dalam permintaan API');
+    }
+    return response.arrayBuffer();
+  })
+  .then(async (imageBuffer) => {
+    // Menyimpan gambar ke file
+    await writeFile('output.png', Buffer.from(imageBuffer));
+    console.log('Gambar telah disimpan sebagai output.png');
+  })
+  .catch((error) => {
+    // Menangani kesalahan jika terjadi
+    console.error('Terjadi kesalahan:', error);
+  });
+              </textarea>
+          </div>
+
+          <!-- Kotak Ketiga -->
+          <div class="code-box">
+              <textarea id="rest-api-code3" readonly>
+// Respone dalam bentuk Audio
+
+import fetch from 'node-fetch';
+import { writeFile } from 'fs/promises';
+
+// Definisikan URL endpoint API Anda
+const apiUrl = 'https://sanslinedev.tech/api/others/voicevox2';
+
+// Gantikan dengan kata dan API key yang sesuai
+const text = 'Text Yang ingin di ubah ke audio';
+const apiKey = 'Your Api Key';
+
+// Membuat URL dengan parameter kata dan apikey
+const urlWithParams = `${apiUrl}?q=${encodeURIComponent(text)}&apikey=${encodeURIComponent(apiKey)}`;
+
+// Melakukan request GET ke API
+fetch(urlWithParams)
+  .then((response) => {
+    if (!response.ok) {
+      throw new Error('Terjadi kesalahan dalam permintaan API');
+    }
+    return response.buffer();
+  })
+  .then(async (audioBuffer) => {
+    // Menyimpan audio ke file
+    await writeFile('output.mp3', Buffer.from(audioBuffer));
+    console.log('Audio telah disimpan sebagai output.mp3');
+  })
+  .catch((error) => {
+    // Menangani kesalahan jika terjadi
+    console.error('Terjadi kesalahan:', error);
+  });
+              </textarea>
+          </div>
+      </div>
+  </section>
+    
+
+  </main><!-- End #main -->
+
+ <!-- ======= Footer ======= -->
+ <footer id="footer" class="footer">
+
+  <div class="container">
+    <div class="row gy-4">
+      <div class="col-lg-5 col-md-12 footer-info">
+        <a href="/" class="logo d-flex align-items-center">
+          <span>SanslineApi</span>
+        </a>
+        <p>kami adalah Penyedia rest api gratis, yang dapat anda gunakan untuk memenuhi kebutuhan di project anda.</p>
+        <div class="social-links d-flex mt-4">
+          <a href="https://wa.me/6282218700162" class="facebook"><i class="bi bi-whatsapp"></i></a>
+          <a href="https://instagram/SanslineApi" class="instagram"><i class="bi bi-instagram"></i></a>
+          <a href="https://www.youtube.com/@sanslineproject class="youtube"><i class="bi bi-youtube"></i></a>
+        </div>
+      </div>
+
+      <div class="col-lg-2 col-6 footer-links">
+        <h4>Useful Links</h4>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About us</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Terms of service</a></li>
+        </ul>
+      </div>
+
+      <div class="col-lg-2 col-6 footer-links">
+        <h4>Blog</h4>
+        <ul>
+          <li><a href="/apa-itu-restapi">Apa itu Rest api?</a></li>
+          <li><a href="/apa-itu-endpoint">Apa itu Url Endpoint?</a></li>
+          <li><a href="/cara-kerja-rest-api">Cara kerja rest api?</a></li>
+          <li><a href="/example-code">Cara Mengunakanya?</a></li>
+        </ul>
+      </div>
+
+      <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
+        <h4>Contact Us</h4>
+        <p>
+          <strong>Email:</strong>sanslinedev@gmail.com<br>
+        </p>
+
+      </div>
+
+    </div>
+  </div>
+
+  <div class="container mt-4">
+    <div class="copyright">
+      &copy; Copyright <strong><span>SanslineApi</span></strong>. All Rights Reserved
+    </div>
+    <div class="credits">
+      Designed by <a href="https://sanslineporject.site/">Sansline</a>
+    </div>
+  </div>
+
+</footer><!-- End Footer -->
+  <!-- End Footer -->
+
+  <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor1/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor1/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor1/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor1/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor1/aos/aos.js"></script>
+  <script src="assets/vendor1/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js1/main.js"></script>
+
+</body>
+
+</html>

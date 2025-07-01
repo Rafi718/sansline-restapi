@@ -1,0 +1,100 @@
+<style>
+    /* CSS untuk section Pricing */
+#pricing {
+    background-color: #f8f8f8;
+    padding: 50px 0;
+    text-align: center;
+}
+
+/* CSS untuk pricing-content */
+.pricing-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+/* CSS untuk judul h2 */
+h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* CSS untuk form-group */
+.form-group {
+    margin-bottom: 15px;
+}
+
+/* CSS untuk form-control */
+.form-control {
+    font-family: Arial, FontAwesome;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* CSS untuk paragraf tambahan */
+p {
+    font-size: 14px;
+    color: #777;
+    margin-top: 5px;
+}
+
+/* CSS untuk tombol */
+.button {
+    font-family: Arial, FontAwesome;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+.button-primary {
+    background-color: #007BFF;
+    border-color: #007BFF;
+    color: #fff;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.button-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+    color: #fff;
+}
+
+</style>
+<body>
+<section id="pricing">
+    <div class="row pricing-content">
+        <center>
+            <%- include('../layouts/prem')  %> 
+            <%- include('../layouts/prem1')  %> 
+        </center>
+    </div>
+    <div class="row pricing-content">
+        <center>
+            <h2>RESET LIMIT APIKEY FORM</h2>
+            <form method="POST" action="/premium/limit">
+                <div class="form-group">
+                    <input style="font-family:Arial, FontAwesome" name="username" type="text" class="form-control" placeholder="&#xf007;   Username" required>
+                </div>
+                <div class="form-group">
+                    <input style="font-family:Arial, FontAwesome" name="token" type="text" class="form-control" id="token" placeholder="&#xf084;   Token" required>
+                </div>
+                <p>token, to make sure you are the owner</p>
+                <button type="submit" class="button button-primary">Reset Limit Apikey</button>
+            </form>
+            <div>
+                <p> </p>
+                <p>Back to Dashboard</p>
+                <a class="button button-primary" href="/premium">Back</a>
+            </div>
+        </center>      
+    </div>
+</section>
+</body>
